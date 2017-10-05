@@ -23,15 +23,21 @@ body {
 
 .jumbotron {
     background: url("../images/home.webp") no-repeat center center;
-    /*height:100%;
-    width:100vw;
-    background-size: auto;*/
+    margin-bottom: 30px;
 }
 
 #chi-siamo, #mission, #contatti {
     background-color: gray;
     border-radius:5px;
     padding:0;
+    margin-bottom: 30px;
+    position:relative;
+}
+
+#chi-siamo-a, #mission-a, #contatti-a {
+    position:absolute;
+    visibility:hidden;
+    top: -150px;
 }
 
 #chi-siamo-img {
