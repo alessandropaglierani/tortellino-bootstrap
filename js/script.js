@@ -68,6 +68,11 @@ $("document").ready(function() {
             });
         } // End if
     });
+
+    //auto collapse navbar
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
 });
 
 $(window).resize(function() {
