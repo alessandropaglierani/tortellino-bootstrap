@@ -28,16 +28,27 @@ body {
     background-size: auto;*/
 }
 
-#chi-siamo {
+#chi-siamo, #mission, #contatti {
     background-color: gray;
     border-radius:5px;
     padding:0;
 }
 
 #chi-siamo-img {
-
     /*Con queste proporzioni, immagine in formato 5/2 */
     background: url("../images/chisiamo.png") no-repeat;
+}
+
+#mission-img {
+    /*Con queste proporzioni, immagine in formato 5/2 */
+    background: url("../images/mission-background.png") no-repeat;
+}
+
+#contatti-img {
+
+}
+
+#chi-siamo-img, #mission-img {
     background-position:center;
     background-size:100%;
     width: 100%;
