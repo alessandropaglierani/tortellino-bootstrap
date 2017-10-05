@@ -1,0 +1,123 @@
+/**** GENERIC STYLES ****/
+
+/***** HEADER *****/
+
+body {
+    font-family: 'Baloo Tamma', sans-serif;
+    font-weight: 100;
+}
+
+#header-nav {
+    margin-bottom:0px;
+    overflow:visible;
+    height: 150px;
+}
+
+.navbar-header a img {
+    width: 300px;
+}
+
+/***** END HEADER *****/
+
+/***** CONTENT *****/
+
+.jumbotron {
+    background: url("../images/home.webp") no-repeat center center;
+    /*height:100%;
+    width:100vw;
+    background-size: auto;*/
+}
+
+#chi-siamo {
+    background-color: gray;
+    border-radius:5px;
+    padding:0;
+}
+
+#chi-siamo-img {
+
+    /*Con queste proporzioni, immagine in formato 5/2 */
+    background: url("../images/chisiamo.png") no-repeat;
+    background-position:center;
+    background-size:100%;
+    width: 100%;
+    height:40%;
+
+}
+
+/***** END CONTENT *****/
+
+/**** FOOTER *****/
+
+/***** END FOOTER *****/
+
+
+/***** MEDIA QUERY LARGE DEVICES *****/
+@media screen and (min-width: 1200px) {
+    #header-nav {
+        margin-bottom:0;
+        height: 150px;
+    }
+
+    #header-nav .container {
+        height:100%;
+    }
+
+    .navbar-header {
+        line-height: 150px;
+    }
+
+    .navbar>.container .navbar-brand {
+        margin-left:20px;
+        padding:0;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
+    .navbar-header a img {
+        width: 300px;
+    }
+
+    #nav-list {
+        position:absolute;
+        bottom:0;
+        right:10%;
+    }
+}
+
+/***** MEDIA QUERY MEDIUM DEVICES *****/
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .navbar-header a img {
+        width:200px;
+    }
+
+    .navbar-header .navbar-brand h3 {
+        margin:0 20px;
+    }
+}
+
+/***** MEDIA QUERY SMALL DEVICES *****/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-header a img {
+        width:200px;
+    }
+}
+
+/***** MEDIA QUERY EXTRA SMALL DEVICES *****/
+
+@media screen and (max-width: 767px) {
+    .navbar-header a img {
+        width:200px;
+    }
+
+    .jumbotron {
+        background: none;
+    }
+
+    #chi-siamo-img {
+        background:none;
+    }
+
+    .nav.social>li {display:inline-block;}
+}
