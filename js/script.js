@@ -11,15 +11,21 @@ $("document").ready(function() {
 
         var jumbotron = $("#jumbotron");
         var chisiamo = $("#chi-siamo");
+        var mission = $("#mission");
+        var contatti = $("#contatti");
         console.log(jumbotron);
-        console.log(chisiamo)
+        console.log(chisiamo);
+        console.log(mission);
+        console.log(contatti);
 
         jumbotron.height(altezzaelementi + "px");
-        jumbotron.marginTop = "150px";
+        jumbotron.css('margin-top', 150);
         console.log("margin-top jumbotron: " + jumbotron.marginTop);
         console.log("altezza jumbotron: " + jumbotron.height());
         chisiamo.height(altezzaelementi + "px");
         console.log("altezza chi-siamo: " + chisiamo.height());
+        mission.height(altezzaelementi + "px");
+        contatti.height(altezzaelementi + "px");
 
         console.log("Eseguito dinamic height");
 
