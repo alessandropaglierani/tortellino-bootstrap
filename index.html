@@ -11,6 +11,33 @@
     <!--<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Montserrat" rel="stylesheet">
+
+    <!-- Codice Cookie Policy -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#000"
+                    },
+                    "button": {
+                        "background": "#f1d600"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-right",
+                "type": "opt-out",
+                "content": {
+                    "message": "Questo sito utilizza dei cookie per assicurarti la miglior esperienza possibile. ",
+                    "dismiss": "Accetto",
+                    "deny": "Rifiuto",
+                    "link": "Di più",
+                    "href": "www.paolinotortellino.it/cookiepolicy.html"
+                }
+            })});
+    </script>
 </head>
 <body>
 <header>
@@ -33,14 +60,15 @@
                 </button>
             </div>
 
-            <ul class="nav navbar-nav navbar-collapse navbar-right social">
-                <li><a href="#"><i class="fa fa-lg fa-facebook "></i></a></li>
-                <li><a href="#"><i class="fa fa-lg fa-twitter "></i></a></li>
-                <li><a href="#"><i class="fa fa-lg fa-google-plus "></i></a></li>
-                <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
-            </ul>
+
 
             <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="social-buttons" class="nav navbar-nav navbar-right social">
+                    <li><a href="#"><i class="fa fa-lg fa-facebook "></i></a></li>
+                    <li><a href="#"><i class="fa fa-lg fa-twitter "></i></a></li>
+                    <li><a href="#"><i class="fa fa-lg fa-google-plus "></i></a></li>
+                    <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                </ul>
 
                 <ul id="nav-list" class="nav navbar-nav navbar-right pull-right">
                     <li>

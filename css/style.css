@@ -135,6 +135,16 @@ body {
 /***** MEDIA QUERY EXTRA SMALL DEVICES *****/
 
 @media screen and (max-width: 767px) {
+    #collapsable-nav {
+        background-color: #f8f8f8;
+
+    }
+
+    #collapsable-nav #navlist {
+        width:100%;
+        text-align:center;
+    }
+
     .navbar-header a img {
         width:200px;
     }
@@ -148,4 +158,18 @@ body {
     }
 
     .nav.social>li {display:inline-block;}
+
+    #collapsable-nav {
+        background-color: #f8f8f8;
+
+    }
+
+    #collapsable-nav > #nav-list {
+        width:100%;
+        text-align:center;
+    }
+
+    #collapsable-nav > #social-buttons {
+        text-align:center;
+    }
 }
