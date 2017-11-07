@@ -103,7 +103,7 @@ $(window).resize(function() {
 
     }
 
-    dynamicheight(headerheight,screenheight);
+    //dynamicheight(headerheight,screenheight);
     console.log("Eseguito dinamic height");
 
     if ($(window).innerWidth() <= 767) {
