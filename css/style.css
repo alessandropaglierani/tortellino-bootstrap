@@ -6,12 +6,17 @@ body {
     font-family: 'Baloo Tamma', sans-serif;
     font-weight: 100;
     color: #000000;
+    background-color: #feec51;
 }
 
 #header-nav {
     margin-bottom:0px;
     overflow:visible;
     height: 120px;
+}
+#header-nav .container {
+    padding-left:15px;
+    padding-right:15px;
 }
 
 .navbar-header a img {
@@ -27,6 +32,15 @@ body {
 
 /***** CONTENT *****/
 
+.container {
+    padding:0;
+}
+
+.row {
+    padding:0;
+    margin:0;
+}
+
 .jumbotron {
     background: url("../images/home.webp") no-repeat center center;
     margin-bottom: 30px;
@@ -38,6 +52,7 @@ body {
     padding:0;
     margin-bottom: 30px;
     position:relative;
+    background-color:#ffffff;
 }
 
 #chi-siamo-a, #mission-a, #contatti-a, #top-a {
@@ -56,9 +71,17 @@ body {
     background: url("../images/chisiamo.png") no-repeat;
 }
 
+.mission-row {
+    background: url("../images/mission-background.png") no-repeat;
+    background-size:auto 100%;
+}
+
 #mission-img {
     /*Con queste proporzioni, immagine in formato 5/2 */
     background: url("../images/mission-background.png") no-repeat;
+}
+#mission-content {
+    height:60%;
 }
 
 #contatti-img {
@@ -66,10 +89,11 @@ body {
 }
 
 #chi-siamo-img, #mission-img {
-    background-position:center;
+    background-position:center top;
     background-size:100%;
     width: 100%;
     height:40%;
+    border-radius:5px 5px 0px 0px;
 
 }
 
