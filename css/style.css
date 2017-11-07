@@ -101,6 +101,15 @@ body {
 
 /**** FOOTER *****/
 
+footer {
+    text-align:center;
+    color: #feec51;
+}
+
+#footer-container {
+    background-color:#5d5d5d;
+}
+
 /***** END FOOTER *****/
 
 
